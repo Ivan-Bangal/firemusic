@@ -33,11 +33,11 @@ export default function Home() {
     <>
       <Card shadow="sm" p="lg" radius="md" withBorder>
         <Card.Section>
-          <Text weight={500}>Music Form</Text>
+           
         </Card.Section>
 
         <Group position="apart" mt="md" mb="xs">
-          <Text weight={500}>Norway Fjord Adventures</Text>
+          <Text weight={500}>Music Form</Text>
           <Badge color="pink" variant="light">
             On Sale
           </Badge>
@@ -52,7 +52,7 @@ export default function Home() {
        
 
         <Button variant="light" color="blue" fullWidth mt="md" radius="md" onClick={sendMusic}>
-          Book classic tour now
+          Submeter File
         </Button>
       </Card>
      

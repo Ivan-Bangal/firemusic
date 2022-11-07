@@ -42,7 +42,7 @@ export async function getURLForMusic(id: string) {
 
 export async function getURLForMusics(musics: Music[]) {
 
-    console.log('Execute Method')
+   
 
     const downloadUrlList: MusicPresentation[] = []
 
@@ -77,9 +77,6 @@ export async function getURLForMusics(musics: Music[]) {
 
 export function writeMusictoDatabase(author: string, title: string) {
 
-    console.log('Method WriteMusic executed');
-    
-
     let music: Music = {
         author: author,
         title: title,
@@ -93,7 +90,7 @@ export function writeMusictoDatabase(author: string, title: string) {
 
 export function uploadFiletoStorage(file: File, id: string) {
 
-    console.log('Method uploadFiletoStorage executed');
+   
 
     const storageReference = storageRef(storage, 'music/' + id)
 
